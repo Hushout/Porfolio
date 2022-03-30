@@ -1,0 +1,25 @@
+.NavButton {
+  min-width: 100px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .animated-word {
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    max-width: 600px; 
+    width: 100%; 
+    outline: 3px solid;
+    outline-style:inset  ;
+    outline-color: rgba(71, 125, 232, 0.432);
+    outline-offset: 10px;
+    transition: all 600ms cubic-bezier(0.2, 0, 0, 0.8);
+  }
+  
+  .animated-word:hover {
+    color: rgba(71, 126, 232, 0.7);
+    outline-color: rgba(71, 125, 232, 0.295);
+    outline-offset: 1500px;
+  }

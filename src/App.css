@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  color: #355c7d;
 }
 
 .App-logo {
@@ -14,12 +16,27 @@
 }
 
 .App-header {
+  width: 100%;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
+  background-color: #F67280;
+}
+
+.App-header .topHeader{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.App-header .topHeader .Signature{
+  margin-left: 120px;
+}
+
+.App-header .topHeader .Navbar{
+  margin-left: 50%;
 }
 
 .App-link {
