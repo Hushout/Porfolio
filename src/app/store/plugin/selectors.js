@@ -1,0 +1,1 @@
+export const availablePluginsSelector = state => state.plugin.availablePlugins;
